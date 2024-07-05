@@ -1,0 +1,143 @@
+.logotip {
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 158.9px;
+}
+.b,
+.logo,
+.logotip {
+  position: absolute;
+}
+.logo {
+  top: 18px;
+  left: 0;
+  width: 158.9px;
+  height: 30px;
+  font-family: var(--font-gilroy);
+}
+.b {
+  width: 166px;
+  margin: 0 !important;
+  top: calc(50% - 5.5px);
+  left: calc(50% - 83.15px);
+  letter-spacing: 0.1em;
+  display: inline-block;
+}
+.button {
+  top: 0;
+  left: 826.5px;
+  box-shadow: 0 3px 0#ca8532, 0 24px 90px rgba(255, 165, 54, 0.2),
+    0 0 9px rgba(255, 255, 255, 0.65) inset;
+  border-radius: var(--br-xs);
+  background: linear-gradient(-20.59deg, #ffb457, #f4e3c3);
+  width: 254.3px;
+  height: 65px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-mini);
+  color: var(--color-saddlebrown);
+}
+.button,
+.div1,
+.div2 {
+  position: absolute;
+}
+.div1 {
+  top: 0;
+  left: 0;
+  color: var(--color-white);
+  display: inline-block;
+  width: 68.9px;
+}
+.div2 {
+  left: 104.2px;
+  width: 69.8px;
+}
+.div2,
+.div3,
+.div4 {
+  top: 0;
+  display: inline-block;
+}
+.div3 {
+  position: absolute;
+  left: 209.3px;
+  width: 57.4px;
+}
+.div4 {
+  left: 302px;
+  width: 82.1px;
+}
+.category,
+.div4,
+.div5 {
+  position: absolute;
+}
+.div5 {
+  top: 0;
+  left: 419.4px;
+  display: inline-block;
+  width: 99.8px;
+}
+.category {
+  top: 26px;
+  left: 233.1px;
+  width: 519.2px;
+  height: 36px;
+  font-size: var(--font-size-lgi);
+  color: var(--color-gray-200);
+}
+.content {
+  position: absolute;
+  top: 60px;
+  left: 251.2px;
+  width: 1080.8px;
+  height: 65px;
+}
+.div6,
+.div7 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 540.4px);
+  text-decoration: underline;
+  display: inline-block;
+  width: 238.4px;
+}
+.div7 {
+  left: calc(50% + 296.7px);
+  width: 243.7px;
+}
+.content02 {
+  position: absolute;
+  top: 158px;
+  left: calc(50% - 468.8px);
+  width: 1080.8px;
+  height: 31px;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-200);
+}
+.child {
+  position: absolute;
+  top: -245px;
+  left: -61px;
+  filter: blur(253.1px);
+  border-radius: 50%;
+  background-color: var(--color-orange);
+  width: 433px;
+  height: 490px;
+}
+.div {
+  width: 1440px;
+  background-color: var(--color-gray-400);
+  max-width: 100%;
+  height: 229px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-24xl);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}

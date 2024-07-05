@@ -1,0 +1,127 @@
+.icon {
+  position: absolute;
+  top: 0;
+  left: 168.5px;
+  width: 1271.5px;
+  height: 611px;
+  object-fit: cover;
+}
+.div1,
+.header {
+  position: absolute;
+  width: 460.9px;
+}
+.div1 {
+  top: 0;
+  left: calc(50% - 230.45px);
+  display: inline-block;
+}
+.header {
+  top: 85px;
+  left: calc(50% - 146.2px);
+  height: 34px;
+  text-align: center;
+  font-size: var(--font-size-26xl);
+  font-family: var(--font-sangbleu-sunrise);
+}
+.div2 {
+  width: 202px;
+  margin: 0 !important;
+  top: calc(50% - 5.5px);
+  left: calc(50% - 101px);
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  display: inline-block;
+}
+.button,
+.div2,
+.div3 {
+  position: absolute;
+}
+.button {
+  top: 189px;
+  left: calc(50% - 404px);
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 306px;
+  height: 65px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div3 {
+  width: 267px;
+  margin: 0 !important;
+  top: calc(50% - 5.5px);
+  left: calc(50% - 134px);
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  display: inline-block;
+}
+.button1 {
+  top: 189px;
+  left: calc(50% - 62px);
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 306px;
+  height: 65px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.b,
+.button1,
+.button2 {
+  position: absolute;
+}
+.b {
+  width: 177px;
+  margin: 0 !important;
+  top: calc(50% - 5.5px);
+  left: calc(50% - 87.5px);
+  letter-spacing: 0.1em;
+  display: inline-block;
+}
+.button2 {
+  top: 189px;
+  left: calc(50% + 288px);
+  box-shadow: 0 4px 0#ca8532, 0 24px 90px rgba(255, 165, 54, 0.25),
+    0 0 9px rgba(255, 255, 255, 0.65) inset;
+  border-radius: var(--br-xs);
+  background: linear-gradient(-20.59deg, #ffb457, #f4e3c3);
+  width: 285px;
+  height: 65px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-base);
+  color: var(--color-saddlebrown);
+}
+.logotip {
+  position: absolute;
+  top: calc(50% + 214.5px);
+  left: calc(50% + 29px);
+  font-size: var(--font-size-11xl);
+  display: inline-block;
+  font-family: var(--font-gilroy);
+  width: 111px;
+}
+.div {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 611px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}

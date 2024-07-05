@@ -1,0 +1,18 @@
+.desktop,
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.home {
+  align-self: stretch;
+  max-width: 100%;
+}
+.desktop {
+  width: 100%;
+  position: relative;
+  gap: 0.1px;
+  line-height: normal;
+  letter-spacing: normal;
+}
